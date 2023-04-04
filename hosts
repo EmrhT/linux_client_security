@@ -44,3 +44,7 @@ ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 [kwt-plc]
 [monitoring]
 
+
+[target_servers]
+target1    ansible_host=target-server1 ansible_user=root
+target2    ansible_host=target-server2 ansible_user=root
